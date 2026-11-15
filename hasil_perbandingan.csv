@@ -1,0 +1,8 @@
+Percobaan,akurasi,presisi,recall,f1
+Fitur: Warna saja (SVM RBF),0.78,0.7803,0.78,0.78
+Fitur: Tekstur saja (SVM RBF),0.7275,0.7276,0.7275,0.7275
+Fitur: Warna + Tekstur (SVM RBF),0.8025,0.8026,0.8025,0.8025
+SVM linear + tuning,0.8025,0.8029,0.8025,0.8024
+SVM rbf + tuning,0.8175,0.8175,0.8175,0.8175
+Pembanding: K-NN (k=5),0.74,0.7429,0.74,0.7392
+Pembanding: Random Forest,0.8175,0.8176,0.8175,0.8175

@@ -1,0 +1,4 @@
+archive/
+fitur_cache.npz
+__pycache__/
+.vscode/
