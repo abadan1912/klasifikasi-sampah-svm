@@ -3,7 +3,10 @@ import os
 import cv2
 import numpy as np
 from joblib import Parallel, delayed
-from skimage.feature import graycomatrix, graycoprops
+try:
+    from skimage.feature import graycomatrix, graycoprops
+except ImportError:
+    from skimage.feature.texture import graycomatrix, graycoprops
 
 UKURAN = (128, 128)
 # Struktur dataset Kaggle "Waste Classification Data": folder O (organik) dan R (anorganik/recyclable)
